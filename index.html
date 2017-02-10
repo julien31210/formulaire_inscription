@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css">
+	<link rel="stylesheet" type="text/css" src="style-base.css">
+	<meta charset="UTF-8">
+	<title>Formulaire d'inscription</title>
+</head>
+<body>
+	<div class="ui menu"><h1>Formulaire d'inscription</h1></div>
+	<div class="ui container">
+		<form class="register">
+			<div class="ui radio checkbox">
+				<input type="radio" name="radio" checked="checked">
+				<label>M.</label>
+			</div>
+			<div class="ui radio checkbox">
+				<input type="radio" name="radio" checked="checked">	
+				<label>F.</label>
+			</div><br>
+			<input id="nom" type="text" placeholder="Nom" value=""> <br>
+			<input id="prénom" type="text" placeholder="Prénom" value=""> <br>
+			<input id="login" type="text" placeholder="login" value=""> <br>
+			<input id="mdp" type="password" placeholder="mot de passe" minlength="8" value=""> <br>
+			<input id="naissance"type="text" placeholder="date de naissance" value=""> <br>
+			<input id="ville" type="text" placeholder="ville" value=""> <br>
+			<input id="mail" type="text" placeholder="mail" value=""> <br>
+			<input id="url" type="text" placeholder="url" value=""> <br>
+			<textarea id="hobbys" type="text" placeholder="hobbys" maxlength="200" value=""></textarea> <br>
+			<input id="num" type="tel" placeholder="numéro tél" value=""> <br>
+			<input id="couleur" type="text" placeholder="couleur" value=""><br>
+			<button type="submit" id="submit">S'enregistrer	</button>
+		</form>
+	</div>
+	<div id="app"></div>
+</body>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="script-base.js"></script>
+</html>

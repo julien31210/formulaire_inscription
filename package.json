@@ -1,0 +1,22 @@
+{
+  "name": "creation_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script-base.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julien31210/cr-ation_template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julien31210/cr-ation_template/issues"
+  },
+  "homepage": "https://github.com/julien31210/cr-ation_template#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
